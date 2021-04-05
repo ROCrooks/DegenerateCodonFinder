@@ -23,6 +23,11 @@ function processaalist($string)
   return $input;
   }
 
+//
+$required = processaalist($_POST['Required']);
+$wanted = processaalist($_POST['Desired']);
+$excluded = processaalist($_POST['Excluded']);
+
 //Rationalize the input so that amino acids are not in multiple categories
 //Array of required and wanted together
 $wantedrequired = array_merge($wanted,$required);
