@@ -1,4 +1,6 @@
 <?php
+include 'degenerate-codons-required-files';
+
 //Function to process input
 function processaalist($string)
   {

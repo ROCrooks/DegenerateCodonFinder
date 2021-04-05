@@ -1,4 +1,6 @@
 <?php
+include 'degenerate-codons-required-files';
+
 if (count($selectedcodons) > 0)
   {
   //Convert selected codons into a table

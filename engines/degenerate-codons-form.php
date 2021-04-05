@@ -1,4 +1,7 @@
 <?php
+//Include required files
+include 'degenerate-codon-required-files.php';
+
 //The form action
 $formaction = "?page=DegenerateCodonFinder";
 
