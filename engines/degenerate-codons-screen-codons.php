@@ -1,6 +1,6 @@
 <?php
 //Include required files
-include 'degenerate-codon-required-files.php';
+include 'degenerate-codons-required-files.php';
 
 //Array with nucleotide options
 $nucleotideoptions = str_split("ACGTRYSWKMBDHVN");

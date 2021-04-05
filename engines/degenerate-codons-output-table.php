@@ -1,5 +1,6 @@
 <?php
-include 'degenerate-codons-required-files';
+//Include required files
+include 'degenerate-codons-required-files.php';
 
 if (count($selectedcodons) > 0)
   {
