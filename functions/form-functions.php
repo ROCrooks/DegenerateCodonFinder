@@ -27,9 +27,9 @@ function formtextbox($options)
   if (isset($options['Default']) == true)
     $outputhtml = $outputhtml . ' value="' . $options['Default'] . '"';
   if (isset($options['Max']) == true)
-    $outputhtml = $outputhtml . ' value="' . $options['Default'] . '"';
+    $outputhtml = $outputhtml . ' value="' . $options['Max'] . '"';
   if (isset($options['Length']) == true)
-    $outputhtml = $outputhtml . ' value="' . $options['Default'] . '"';
+    $outputhtml = $outputhtml . ' value="' . $options['Length'] . '"';
   $outputhtml = $outputhtml . '>';
   $outputhtml = $outputhtml . '</div>';
   $outputhtml = $outputhtml . '</div>';
@@ -60,7 +60,7 @@ function createform($action,$method,$inputs)
   $outputhtml = $outputhtml . '</div>';
 
   //Make submit and reset buttons, and close form
-  $outputhtml = $outputhtml . '<p><input type="submit" name="submit" value="Submit"> <input type="reset" name="reset" value="Reset"></p>'
+  $outputhtml = $outputhtml . '<p><input type="submit" name="submit" value="Submit"> <input type="reset" name="reset" value="Reset"></p>';
   $outputhtml = $outputhtml . '</form>';
   }
 //---FunctionBreak---
