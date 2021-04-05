@@ -18,7 +18,7 @@ function formtextbox($options)
   $outputhtml = '<div style="display: table-row;">';
   //Make label cell
   $outputhtml = $outputhtml . '<div style="display: table-cell; width: ' . $options['LabelSize'] . ';">';
-  $outputhtml = $outputhtml . $options['Label'];
+  $outputhtml = $outputhtml . '<p>' . $options['Label'] . '</p>';
   $outputhtml = $outputhtml . '</div>';
   //Make text area cell
   $outputhtml = $outputhtml . '<div style="display: table-cell; width: ' . $options['BoxSize'] . ';">';
