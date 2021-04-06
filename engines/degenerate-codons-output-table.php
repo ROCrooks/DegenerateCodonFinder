@@ -7,7 +7,7 @@ if (count($selectedcodons) > 0)
   //Convert selected codons into a table
   $fields = array("Codon","Translated","TranslatedWantedAAs","MissingAAs","TranslatedWantedPercent","WantedTranslatedPercent","StopPercent","StDev");
   $params = array("Headings"=>true);
-  $headings = array("Codon","Translated","Wanted Amino Acids Included","Missing Amino Acids","% Translated Codons Wanted","% Wanted Codons Translated","% Stop Codons","SD of Amino Acid Frequencies");
+  $headings = array("Codon","Translated","Wanted Amino Acids Included","Missing Amino Acids","% Translated Codons Wanted","% Wanted Amino Acids Translated","% Stop Codons","SD of Amino Acid Frequencies");
   $selectedcodonstable = arraytotable($selectedcodons,$fields,$params,$headings);
 
   //Highlight desired amino acids in output table
