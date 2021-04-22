@@ -32,6 +32,8 @@ function formtextbox($options)
     $outputhtml = $outputhtml . ' length="' . $options['Length'] . '"';
   $outputhtml = $outputhtml . '>';
   $outputhtml = $outputhtml . '</div>';
+  if (isset($options['Explanation']) == true)
+    $outputhtml = $outputhtml . '<div style="display: table-cell; width: 500;"><p>' . $options['Explanation'] . '</p></div>';
   $outputhtml = $outputhtml . '</div>';
 
   return $outputhtml;
