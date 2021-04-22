@@ -42,4 +42,5 @@ if (isset($_POST['submit']) == true)
 <?php
 echo $formhtml;
 ?>
+<p><a href="https://github.com/ROCrooks/DegenerateCodonFinder">Git Repository</a></p>
 </div>
